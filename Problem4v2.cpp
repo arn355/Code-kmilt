@@ -3,7 +3,7 @@
 float student[10]={0,0,0,0,0,0,0,0,0,0};
 float sum=0,n,mean;
 
-int average(){
+float average(){
 	for(int i=0;i<10;i++){
 		sum += student[i];		
 	}
